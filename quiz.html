@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lutte contre le Changement Climatique</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./Js/quiz.js" defer></script>
+</head>
+<body>
+
+
+    <nav>
+        <ul>
+            <li><a href="acceuil.html">Accueil</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+        </ul>
+    </nav>
+    
+    <header>
+        <span>
+            <h1>Quiz Climatique</h1>
+            <button id="climatToggle">DarkMode</button>
+        </span>
+    </header>
+
+    <section class="question-container" id="quiz">
+        <h2>Question 1 :</h2>
+        <p>Quelle est la principale source d'émissions de gaz à effet de serre d'origine humaine ?</p>
+        <ul>
+            <li><input type="radio" name="q1" value="false" onclick="checkAnswer(this)"> Les déchets plastiques</li>
+            <li><input type="radio" name="q1" value="false" onclick="checkAnswer(this)"> Les feux de forêt</li>
+            <li><input type="radio" name="q1" value="true" onclick="checkAnswer(this)"> La combustion des combustibles fossiles</li>
+            <li><input type="radio" name="q1" value="false" onclick="checkAnswer(this)"> Les émissions des usines textiles</li>
+        </ul>
+    </section>
+    <section class="question-container">
+        <h2>Question 2 :</h2>
+        <p>Quelle est la principale cause du réchauffement climatique selon la majorité des scientifiques ?</p>
+        <ul>
+            <li><input type="radio" name="q2" value="false" onclick="checkAnswer(this)"> Les cycles naturels de la Terre</li>
+            <li><input type="radio" name="q2" value="false" onclick="checkAnswer(this)"> Les éruptions volcaniques</li>
+            <li><input type="radio" name="q2" value="true" onclick="checkAnswer(this)"> Les émissions de gaz à effet de serre d'origine humaine</li>
+            <li><input type="radio" name="q2" value="false" onclick="checkAnswer(this)"> Les changements d'activité solaire</li>
+        </ul>
+    </section>
+    
+    <section class="question-container">
+        <h2>Question 3 :</h2>
+        <p>Quel secteur est responsable d'une part importante des émissions de méthane, un gaz à effet de serre puissant ?</p>
+        <ul>
+            <li><input type="radio" name="q3" value="true" onclick="checkAnswer(this)"> L'agriculture</li>
+            <li><input type="radio" name="q3" value="false" onclick="checkAnswer(this)"> Les transports</li>
+            <li><input type="radio" name="q3" value="false" onclick="checkAnswer(this)"> L'industrie manufacturière</li>
+            <li><input type="radio" name="q3" value="false" onclick="checkAnswer(this)"> La production d'électricité</li>
+        </ul>
+    </section>
+    
+    <section class="question-container">
+        <h2>Question 4 :</h2>
+        <p>Quelle est la principale solution pour réduire les émissions de gaz à effet de serre dans le secteur des transports ?</p>
+        <ul>
+            <li><input type="radio" name="q4" value="false" onclick="checkAnswer(this)"> Utiliser des biocarburants</li>
+            <li><input type="radio" name="q4" value="true" onclick="checkAnswer(this)"> Augmenter le nombre de voitures électriques</li>
+            <li><input type="radio" name="q4" value="false" onclick="checkAnswer(this)"> Encourager le covoiturage</li>
+            <li><input type="radio" name="q4" value="false" onclick="checkAnswer(this)"> Utiliser des véhicules hybrides</li>
+        </ul>
+    </section>
+    
+    <section class="question-container">
+        <h2>Question 5 :</h2>
+        <p>Qu'est-ce que l'effet de serre ?</p>
+        <ul>
+            <li><input type="radio" name="q5" value="false" onclick="checkAnswer(this)"> Un processus naturel qui refroidit la Terre</li>
+            <li><input type="radio" name="q5" value="true" onclick="checkAnswer(this)"> L'accumulation de chaleur près de la surface terrestre due aux gaz atmosphériques</li>
+            <li><input type="radio" name="q5" value="false" onclick="checkAnswer(this)"> Un phénomène lié uniquement aux activités humaines</li>
+            <li><input type="radio" name="q5" value="false" onclick="checkAnswer(this)"> L'augmentation de la température globale uniquement pendant l'été</li>
+        </ul>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2023 Solutions Climatiques - Tous droits réservés</p>
+    </footer>
+
+</body>
+</html>
